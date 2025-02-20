@@ -1,0 +1,29 @@
+{
+  "name": "POKEDEX_jsactivity",
+  "version": "1.0.0",
+  "description": "<h1 align=\"center\">Hi 👋, I'm Angelo Gonzales</h1> <h3 align=\"center\">A passionate Full stack Developer from UNIVERSITY OF MINDANAO</h3>",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev" : "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "commonjs",
+    "url": "git+https://github.com/gangelo12319/jsactivity.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gangelo12319/jsactivity/issues"
+  },
+  "homepage": "https://github.com/gangelo12319/jsactivity#readme",
+  "dependencies": {
+    "axios": "^1.7.9",
+    "dotenv": "^16.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
